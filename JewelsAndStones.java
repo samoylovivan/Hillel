@@ -12,7 +12,9 @@ public class Main {
         int countJewels = 0;
         for (int i = 0; i < arrJewels.length; i++){
             for(int j = 0; j < arrStones.length; j++) {
-                if(arrJewels[i] == arrStones[j]) countJewels++;
+                if(arrJewels[i] == arrStones[j]){ 
+                    countJewels++;
+                }
             }
         }
         return Integer.toString(countJewels);
